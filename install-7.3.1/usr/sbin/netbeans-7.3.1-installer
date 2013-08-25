@@ -27,7 +27,7 @@ usage(){
 [ "$1" ] || usage
 
 REQ_URL="http://dlc.sun.com.edgesuite.net/netbeans/7.3.1/final/bundles/netbeans-7.3.1-linux.sh"
-case "1" in
+case "$1" in
 	install)
 		if aurex-cache get "$REQ_URL" ; then
 			EXEC_FILE="$(aurex-cache file "$REQ_URL")"
@@ -38,7 +38,7 @@ case "1" in
 			fi
 		fi
 		;;
-	unsinstall)
+	uninstall)
 		rm -fr /usr/local/netbeans-7.3.1
 		rm -f /usr/share/applications/netbeans-7.3.1.desktop
 
