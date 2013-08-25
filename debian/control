@@ -1,0 +1,19 @@
+Source: netbeans-installer
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.8.4
+
+Package: netbeans-installer
+Architecture: all
+Depends: ${misc:Depends}, netbeans-7.3.1-installer
+Description: generic netbeans metapackage
+ This package will always depend on the aurex recommended version of
+ the netbeans IDE
+
+Package: netbeans-7.3.1-installer
+Architecture: all
+Depends: ${misc:Depends}, aurex-cache, oracle-java7-installer
+Description: netbeans 7.3.1 loader package for aurex
+ This package downloads and installs netbeans 7.3.1 IDE
