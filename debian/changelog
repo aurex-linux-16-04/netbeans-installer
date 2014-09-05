@@ -1,3 +1,10 @@
+netbeans-installer (8.0+0aurex1) trusty; urgency=medium
+
+  * New upsteram version
+  * Rebuild for aurex 14.04 trusty
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 05 Sep 2014 20:10:36 +0200
+
 netbeans-installer (7.3.1+0aurex1) precise; urgency=low
 
   * Initial release.
