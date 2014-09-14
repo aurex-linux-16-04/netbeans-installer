@@ -1,3 +1,9 @@
+netbeans-installer (8.0+0aurex2) trusty; urgency=medium
+
+  * Fixed a typo in the download URL
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 14 Sep 2014 23:50:15 +0200
+
 netbeans-installer (8.0+0aurex1) trusty; urgency=medium
 
   * New upsteram version

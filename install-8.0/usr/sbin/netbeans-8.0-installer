@@ -26,7 +26,7 @@ usage(){
 
 [ "$1" ] || usage
 
-REQ_URL="http://dlc.sun.com.edgesuite.net/netbeans/8.0/final/bundles/netbeans-8.0-linux.shsh"
+REQ_URL="http://dlc.sun.com.edgesuite.net/netbeans/8.0/final/bundles/netbeans-8.0-linux.sh"
 case "$1" in
 	install)
 		if aurex-cache get "$REQ_URL" ; then
