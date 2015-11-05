@@ -1,0 +1,5 @@
+#!/bin/sh
+
+netbeans-8.1-installer install
+#DEBHELPER#
+
