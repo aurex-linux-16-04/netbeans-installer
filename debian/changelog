@@ -1,3 +1,9 @@
+netbeans-installer (8.1+0aurex2) xenial; urgency=medium
+
+  * Rebuild for aurex 16.04 xenial
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 15 Sep 2016 00:46:29 +0200
+
 netbeans-installer (8.1+0aurex1) trusty; urgency=medium
 
   * New upstream version
