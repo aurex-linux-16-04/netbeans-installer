@@ -1,3 +1,9 @@
+netbeans-installer (8.1+0aurex4) xenial; urgency=medium
+
+  * Added oracle-java10-installer as an alternative depends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 16 May 2018 15:55:28 +0200
+
 netbeans-installer (8.1+0aurex3) xenial; urgency=medium
 
   * Added oracle-java9-installer as an alternative depends

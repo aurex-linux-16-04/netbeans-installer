@@ -14,18 +14,18 @@ Description: generic netbeans metapackage
 
 Package: netbeans-8.1-installer
 Architecture: all
-Depends: ${misc:Depends}, aurex-cache, oracle-java8-installer|oracle-java9-installer
+Depends: ${misc:Depends}, aurex-cache, oracle-java8-installer|oracle-java9-installer|oracle-java10-installer
 Description: netbeans 8.1 loader package for aurex
  This package downloads and installs netbeans 8.1 IDE
 
 Package: netbeans-8.0-installer
 Architecture: all
-Depends: ${misc:Depends}, aurex-cache, oracle-java8-installer|oracle-java9-installer
+Depends: ${misc:Depends}, aurex-cache, oracle-java8-installer|oracle-java9-installer|oracle-java10-installer
 Description: netbeans 8.0 loader package for aurex
  This package downloads and installs netbeans 8.0 IDE
 
 Package: netbeans-7.3.1-installer
 Architecture: all
-Depends: ${misc:Depends}, aurex-cache, oracle-java7-installer|oracle-java8-installer|oracle-java9-installer
+Depends: ${misc:Depends}, aurex-cache, oracle-java7-installer|oracle-java8-installer|oracle-java9-installer|oracle-java10-installer
 Description: netbeans 7.3.1 loader package for aurex
  This package downloads and installs netbeans 7.3.1 IDE
