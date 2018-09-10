@@ -7,10 +7,16 @@ Standards-Version: 3.8.4
 
 Package: netbeans-installer
 Architecture: all
-Depends: ${misc:Depends}, netbeans-8.1-installer
+Depends: ${misc:Depends}, netbeans-8.2-installer
 Description: generic netbeans metapackage
  This package will always depend on the aurex recommended version of
  the netbeans IDE
+
+Package: netbeans-8.2-installer
+Architecture: all
+Depends: ${misc:Depends}, aurex-cache, oracle-java10-installer|oracle-java8-installer
+Description: netbeans 8.2 loader package for aurex
+ This package downloads and installs netbeans 8.2 IDE
 
 Package: netbeans-8.1-installer
 Architecture: all

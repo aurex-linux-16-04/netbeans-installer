@@ -1,3 +1,9 @@
+netbeans-installer (8.2+0aurex1) xenial; urgency=medium
+
+  * New upstream version
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 10 Sep 2018 02:06:58 +0200
+
 netbeans-installer (8.1+0aurex4) xenial; urgency=medium
 
   * Added oracle-java10-installer as an alternative depends
